@@ -2,9 +2,10 @@
 
 require_relative '../lib/tic_tac_toe'
 
+# initialize game with empty array representing empty board
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
+# greet user, display empty board, initialize game of tic tac toe
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
-
 play(board)
